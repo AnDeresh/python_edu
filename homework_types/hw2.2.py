@@ -5,3 +5,7 @@ def swap_dict(dicti):
         list_reverse.append(i[::-1])
     dict_swap = dict(list_reverse)
     return dict_swap
+
+def swap_dict_2(dicti):
+    dict_swap = {value: key for key, value in dicti.items()}
+    print(dict_swap)
