@@ -1,6 +1,5 @@
 def two_maximum(list):
-    sorted_list = [x for x in set(x for x in list)]
-    return tuple(sorted_list[:-3:-1])
+    return tuple(sorted(list)[:-3:-1])
 
 
 if __name__ == '__main__':
